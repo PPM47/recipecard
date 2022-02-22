@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Georgia Pro';
+    src: local('Georgia Pro Condensed Light'), local('Georgia-Pro-Condensed-Light'),
+        url('GeorgiaPro-CondLight.woff2') format('woff2'),
+        url('GeorgiaPro-CondLight.woff') format('woff'),
+        url('GeorgiaPro-CondLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }

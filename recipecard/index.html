@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  CSS File -->
+    <link rel="stylesheet" href="assets/css/Style.css">
+
+    <!-- External Font CSS File -->
+    <link rel="stylesheet" href="assets/fonts/style_TTWellingtons-DemiBold.css">
+   
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- font  JS File -->
+    
+    <script src="https://kit.fontawesome.com/a3f3dcd93e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    
+
+    <title>Recipe Card</title>
+</head>
+<body>
+    
+    <div class="continer">
+        <div class="background_01"></div>
+        <div class="background_02"></div>
+        
+        <div class="card_con">
+            <div class="grid_con">
+                <div class="grid_item nav_con">
+
+                    <nav class="nav_con">
+                        <!--------------------------- subcribe link ---------------------------->
+                        <a href="#" class="subcribe-con-a"><span id="subcribe-text">Subscribe</span></a>
+                        <!--------------------------- search bar ---------------------------->
+                        <div class="search-con">
+                            <input type="text" class="search_input gap" value="text" placeholder="Type Here" id="search_input" aria-label="Search" onfocus="this.value=''">
+                            <button class="btn-con" id="search_btn">
+                                <i class="fa-solid fa-magnifying-glass" aria-label="Submit Button"></i>
+                                
+                            </button>
+                        </div>
+                        <!--------------------------- toggle btn ---------------------------->
+                        <span class="toggle_ ">
+                            <i class="bi bi-filter-right"></i>
+                        </span>
+        <!--------------------------- toggle menu ---------------------------->
+  
+                    </nav>
+
+
+                </div>
+                <div class="grid_item hero_image_con"></div>
+                <div class="grid_item hero_text_con">
+                    <div class="flex_col">
+                        <h1 class="hero_text">Vegan Ramen</h1>
+    
+                        <div class="rating_con">
+                            <div class="reting_bar_con">
+                                <fieldset class="rating"> <input type="radio" id="star5" name="rating" value="5" />
+                                    <label class="full" for="star5" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half" name="rating" value="4.5" />
+    
+                                    <label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4" name="rating" value="4" />
+    
+                                    <label class="full" for="star4" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="star3half" name="rating" value="3.5" />
+    
+                                    <label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3" name="rating" value="3" />
+    
+                                    <label class="full" for="star3" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half" name="rating" value="2.5" />
+    
+                                    <label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2" name="rating" value="2" />
+                            
+                                    <label class="full" for="star2" title="Kinda bad - 2 stars"></label>
+                                     <input type="radio" id="star1half" name="rating" value="1.5" />
+    
+                                     <label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                     <input type="radio" id="star1" name="rating" value="1" />
+                                     
+                                     <label class="full" for="star1" title="Sucks big time - 1 star"></label>
+                                     <input type="radio" id="starhalf" name="rating" value="0.5" />
+                            
+                                     <label class="half" for="starhalf" title="Sucks big time - 0.5 stars">
+                                     </label> <input type="radio" class="reset-option" name="rating" value="reset" /> </fieldset>
+                            
+                            </div>
+                            <span class="rating_text"> 3.4 of 5</span>
+                        </div>
+    
+                        <div class="para">
+                            <p>
+                                Easiest way to make healthy happy breakfast
+                                for you and whole your family and eat it
+                                the whole day even on holidays
+                            </p>
+                        </div>
+                        <div class="meal_detail_con">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <span class="num">40</span>
+                                        <span class="text_">mins</span>
+                                    </td>
+                                    <td class="dash"><span class="fa-pipee"><img src="assets/icons/SVG/003.svg" alt=""></span></td>
+                                    
+                                    <td>
+                                        <span class="num">225</span>
+                                        <span class="text_">nutrition</span>
+                                    </td>
+                                    <td class="dash"><span class="fa-pipee"><img src="assets/icons/SVG/003.svg" alt=""></span></td>
+                                    <td>
+                                        <span class="num">6</span>
+                                        <span class="text_">ingredients</span>
+                                    </td>
+                                </tr>
+                            </table>
+    
+                        </div>
+                        <div class="image_slider_con">
+                            <div class="text_con">
+                                <h3> New recipes </h3>
+                            </div>
+    
+                            <div class="swiper_con">
+                                  <div class="swiper-slide_"><img src="assets/images/s01.png" alt=""></div>
+                                  <div class="swiper-slide_"><img src="assets/images/s02.png" alt=""></div>
+                                  <div class="swiper-slide_"><img src="assets/images/s03.png" alt=""></div>
+                                  
+                            </div>
+                            <div class="slider_icon_con"><i class="fa-solid fa-arrow-right-long"></i></div>
+    
+                        </div>
+                       
+                    </div> <!--------------------------- text flex close ---------------------------->
+                </div><!--------------------------- hero_text_con ---------------------------->
+            </div><!--------------------------- grid_con ---------------------------->
+    
+        </div><!--------------------------- card close ---------------------------->
+    </div><!--------------------------- continer close  ---------------------------->
+
+
+    
+    
+    
+    <!--  JS File -->
+ <script src="assets/js/Main.js"></script>
+</body>
+ 
+ 
+
+</html>

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TT Wellingtons';
+    src: local('TT Wellingtons Demi Bold'), local('TT-Wellingtons-Demi-Bold'),
+        url('TTWellingtons-DemiBold.woff2') format('woff2'),
+        url('TTWellingtons-DemiBold.woff') format('woff'),
+        url('TTWellingtons-DemiBold.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
